@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: rgb(0, 136, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+section {
+  background-color: aliceblue;
+  padding: 10px;
+  width: 900px;
+
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+.full_input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#inputField {
+  margin-top: 10px;
+  width: 65%;
+  padding: 10px 5px;
+  height: 39px;
+  border: 1px solid rgb(0, 136, 255);
+  outline: 0;
+  border-radius: 6px 6px 6px 6px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+button {
+  width: 10%;
+  font-size: 20px;
+  height: 39px;
+  border: 0;
+  background-color: rgb(0, 136, 255);
+  color: white;
+  border-radius: 6px 6px 6px 6px;
+}
+
+.paragraphe_style {
+  padding: 10px 0;
+  margin: 10px 0;
+  padding-left: 5px;
+  border-radius: 6px;
+  color: aliceblue;
+  background-color: rgb(0, 153, 255);
+  word-break: break-all;
+
+  cursor: pointer;
+  animation: anime 0.5s linear;
+}
+
+.paragraphe_style:last-child {
+  margin-bottom: 0;
+}
+
+@keyframes anime {
+  from {
+    transform: translateY(50px);
+  }
+}
+
+.paragraphe_click {
+  background-color: red;
+  text-decoration: line-through;
+}
+
+#toDoContainer {
+  font-size: 0.8em;
+  display: flex;
+  gap: 6%;
+
+  justify-content: center;
+}
+
+#toDoContainerlundi {
+  flex-direction: column;
+  margin-top: 10px;
+  opacity: 0;
+}
+#toDoContainermardi {
+  flex-direction: column;
+  margin-top: 10px;
+  opacity: 0;
+}
+#toDoContainermercredi {
+  flex-direction: column;
+  margin-top: 10px;
+  opacity: 0;
+}
+#toDoContainerjeudi {
+  flex-direction: column;
+  margin-top: 10px;
+  opacity: 0;
+}
+#toDoContainervendredi {
+  flex-direction: column;
+  margin-top: 10px;
+  opacity: 0;
+}
+#toDoContainersamedi {
+  flex-direction: column;
+  margin-top: 10px;
+  opacity: 0;
+}
+#toDoContainerdimanche {
+  flex-direction: column;
+  margin-top: 10px;
+  opacity: 0;
+}
+
+.select {
+  width: 18%;
+  font-size: 20px;
+  height: 39px;
+  border: 0;
+  background-color: rgb(0, 136, 255);
+  color: white;
+  font-size: 1em;
+  padding-left: 10px;
+
+  border-radius: 6px 6px 6px 6px;
+}
